@@ -1,3 +1,6 @@
+# Copyright (c) [Año] [Tu Nombre]
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
+
 import pandas as pd
 from conexion import obtener_engine  # Asegúrate de tener tu función de conexión aquí
 from sklearn.model_selection import train_test_split
