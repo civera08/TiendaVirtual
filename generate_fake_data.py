@@ -4,8 +4,8 @@ from faker import Faker
 import random
 
 # Configura tu servidor y base de datos
-server = 'NEURABYTE'  # Cambia si usas un nombre de instancia o IP
-database = 'TiendaVirtual'  # Reemplaza por tu base de datos
+server = 'TuServidor'  # Cambia si usas un nombre de instancia o IP
+database = 'TuDB'  # Reemplaza por tu base de datos
 
 # Cadena de conexión con autenticación de Windows
 connection_string = (
@@ -19,7 +19,7 @@ engine = create_engine(connection_string)
 fake = Faker('es_MX')
 
 # Leer el archivo CSV con las ciudades
-ciudades_df = pd.read_csv(r'C:\Users\César\Documents\DS_Books\TiendaVirtual\ciudades_mexico.csv')  # Asegúrate de que el archivo esté en el directorio correcto
+ciudades_df = pd.read_csv('ciudades_mexico.csv')  # Asegúrate de que el archivo esté en el directorio correcto
 
 # Extraer las ciudades (columna 'ciudad_nombre')
 ciudades_mexico = ciudades_df['ciudad_nombre'].tolist()
