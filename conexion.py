@@ -1,3 +1,6 @@
+# Copyright (c) 2025 César Rivera
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
+
 from sqlalchemy import create_engine
 
 # Conexión con credenciales de Windows
