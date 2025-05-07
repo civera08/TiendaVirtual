@@ -1,3 +1,5 @@
+# Copyright (c) 2025 César Rivera
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
 #Este script se encarga de crear un gráfico de dispersión y calcular el intervalo de confianza
     
 from conexion import obtener_engine  # Conexión a la base de datos
