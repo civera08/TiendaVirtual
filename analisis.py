@@ -1,3 +1,5 @@
+# Copyright (c) 2025 César Rivera
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
 # Este script realiza la conexión a la base de datos, une las tablas 'orders' y 'customers'
 # y ejecuta un análisis estadístico de los montos de compra por cliente y por ciudad.
 
