@@ -1,44 +1,40 @@
-# analisis_tienda.py
+# Este script realiza la conexión a la base de datos, une las tablas 'orders' y 'customers'
+# y ejecuta un análisis estadístico de los montos de compra por cliente y por ciudad.
 
-from conexion import obtener_engine  # Conexión a la base de datos
+from conexion import obtener_engine
 import pandas as pd
-from scipy import stats  # Para estadísticas y el intervalo de confianza
+from scipy import stats
 
-# Paso 1: Obtener la conexión
+# Conexión a la base de datos
 engine = obtener_engine()
 
-# Paso 2: Leer las tablas desde la base de datos
+# Cargar datos desde la base
 with engine.connect() as conn:
     customers = pd.read_sql("SELECT * FROM customers", conn)
     orders = pd.read_sql("SELECT * FROM orders", conn)
 
-# Paso 3: Unir ambas tablas usando customer_id
+# Unir órdenes con clientes
 orders_with_customers = orders.merge(customers, on='customer_id')
 
-# Paso 4: Funciones de análisis
-
+# Funciones de análisis
 def analisis_montos(df):
     total_por_cliente = df.groupby('nombre')['monto'].sum()
     total_por_ciudad = df.groupby('ciudad')['monto'].sum()
     return total_por_cliente, total_por_ciudad
 
 def estadisticas_basicas(df):
-    media = df['monto'].mean()
-    std = df['monto'].std()
-    return media, std
+    return df['monto'].mean(), df['monto'].std()
 
 def intervalo_confianza(df):
     media = df['monto'].mean()
-    intervalo = stats.t.interval(
+    return stats.t.interval(
         confidence=0.90,
         df=len(df['monto']) - 1,
         loc=media,
         scale=stats.sem(df['monto'])
     )
-    return intervalo
 
-# Paso 5: Llamar funciones y mostrar resultados
-
+# Ejecutar análisis
 print("\n🔹 Análisis por cliente y ciudad:")
 cliente_total, ciudad_total = analisis_montos(orders_with_customers)
 print("Top 5 clientes con mayor monto total:")
