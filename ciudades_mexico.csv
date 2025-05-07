@@ -1,0 +1,101 @@
+﻿ciu_id,ciudad_nombre,estado,Geo. coordinates
+1,Mexico City,Mexico City,19°25′57″N 99°07′52″W
+2,Tijuana,Baja California,32°32′05″N 117°02′37″W
+3,Ecatepec,State of Mexico,19°36′35″N 99°03′36″W
+4,León,Guanajuato,21°07′11″N 101°40′50″W
+5,Puebla,Puebla,19°02′43″N 98°11′51″W
+6,Ciudad Juárez,Chihuahua,31°44′22″N 106°29′13″W
+7,Guadalajara,Jalisco,20°40′35″N 103°20′32″W
+8,Monterrey,Nuevo León,25°40′17″N 100°18′31″W
+9,Nezahualcóyotl,State of Mexico,19°23′59″N 98°59′22″W
+10,Zapopan,Jalisco,20°43′14″N 103°23′18″W
+11,Chihuahua,Chihuahua,28°38′07″N 106°05′20″W
+12,Mérida,Yucatán,20°58′04″N 89°37′18″W
+13,Naucalpan,State of Mexico,19°28′31″N 99°14′16″W
+14,Cancún,Quintana Roo,21°09′38″N 86°50′51″W
+15,Saltillo,Coahuila,25°26′00″N 101°00′00″W
+16,Aguascalientes,Aguascalientes,21°52′51″N 102°17′46″W
+17,Hermosillo,Sonora,29°05′56″N 110°57′15″W
+18,Mexicali,Baja California,32°39′48″N 115°28′04″W
+19,San Luis Potosí,San Luis Potosí,22°08′59″N 100°58′30″W
+20,Culiacán,Sinaloa,24°47′31″N 107°23′53″W
+21,Querétaro,Querétaro,20°35′17″N 100°23′17″W
+22,Morelia,Michoacán,19°42′08″N 101°11′08″W
+23,Chimalhuacán,State of Mexico,19°26′15″N 98°57′15″W
+24,Reynosa,Tamaulipas,26°05′32″N 98°16′40″W
+25,Torreón,Coahuila,25°32′40″N 103°26′30″W
+26,Tlalnepantla,State of Mexico,19°32′12″N 99°11′41″W
+27,Acapulco,Guerrero,16°51′42″N 99°53′11″W
+28,Tlaquepaque,Jalisco,20°38′19″N 103°18′26″W
+29,Guadalupe,Nuevo León,25°40′45″N 100°14′06″W
+30,Durango,Durango,24°01′22″N 104°39′16″W
+31,Tuxtla Gutiérrez,Chiapas,16°45′11″N 93°06′56″W
+32,Cuautitlán Izcalli,State of Mexico,19°38′46″N 99°12′41″W
+33,Veracruz,Veracruz,19°11′25″N 96°09′12″W
+34,Ciudad Apodaca,Nuevo León,25°46′54″N 100°11′20″W
+35,Ciudad López Mateos,State of Mexico,19°33′40″N 99°14′49″W
+36,Matamoros,Tamaulipas,25°52′47″N 97°30′15″W
+37,General Escobedo,Nuevo León,25°48′31″N 100°19′37″W
+38,Irapuato,Guanajuato,20°40′27″N 101°20′51″W
+39,Xalapa,Veracruz,19°32′17″N 96°54′33″W
+40,Tonalá,Jalisco,20°37′24″N 103°14′44″W
+41,Mazatlán,Sinaloa,23°14′29″N 106°24′35″W
+42,Nuevo Laredo,Tamaulipas,27°29′11″N 99°30′29″W
+43,San Nicolás,Nuevo León,25°44′30″N 100°18′08″W
+44,Ojo de Agua,State of Mexico,19°40′49″N 99°00′36″W
+45,Xico,State of Mexico,19°17′30″N 98°56′20″W
+46,Celaya,Guanajuato,20°31′44″N 100°48′54″W
+47,Tepic,Nayarit,21°30′59″N 104°53′39″W
+48,Ixtapaluca,State of Mexico,19°19′07″N 98°52′56″W
+49,Cuernavaca,Morelos,18°55′07″N 99°14′03″W
+50,Villahermosa,Tabasco,17°59′21″N 92°55′41″W
+51,Ciudad Victoria,Tamaulipas,23°44′10″N 99°08′46″W
+52,Ensenada,Baja California,31°51′28″N 116°36′21″W
+53,Ciudad Obregón,Sonora,27°29′21″N 109°56′06″W
+54,Ciudad Nicolás Romero,State of Mexico,19°37′30″N 99°18′51″W
+55,Soledad,San Luis Potosí,22°10′59″N 100°56′27″W
+56,Ciudad Benito Juárez,Nuevo León,25°38′51″N 100°05′41″W
+57,Playa del Carmen,Quintana Roo,20°37′39″N 87°04′52″W
+58,Santa Catarina,Nuevo León,25°40′32″N 100°27′44″W
+59,Gómez Palacio,Durango,25°33′40″N 103°29′54″W
+60,Uruapan,Michoacán,19°25′10″N 102°03′30″W
+61,Los Mochis,Sinaloa,25°47′37″N 108°59′49″W
+62,Pachuca,Hidalgo,20°07′18″N 98°44′09″W
+63,Tampico,Tamaulipas,22°15′19″N 97°52′07″W
+64,Tehuacán,Puebla,18°27′50″N 97°23′35″W
+65,San Francisco Coacalco,State of Mexico,19°38′00″N 99°05′35″W
+66,Nogales,Sonora,31°19′07″N 110°56′45″W
+67,Oaxaca,Oaxaca,17°04′04″N 96°43′12″W
+68,La Paz,Baja California Sur,24°08′32″N 110°18′39″W
+69,Campeche,Campeche,19°50′45″N 90°32′12″W
+70,Monclova,Coahuila,26°54′03″N 101°25′00″W
+71,García,Nuevo León,25°49′00″N 100°35′00″W
+72,Chilpancingo,Guerrero,17°33′00″N 99°30′04″W
+73,Puerto Vallarta,Jalisco,20°36′49″N 105°13′38″W
+74,Toluca,State of Mexico,19°17′32″N 99°39′14″W
+75,Tapachula,Chiapas,14°54′29″N 92°15′38″W
+76,Buenavista,State of Mexico,19°36′30″N 99°10′10″W
+77,Coatzacoalcos,Veracruz,18°08′09″N 94°27′48″W
+78,Ciudad Madero,Tamaulipas,22°16′35″N 97°49′53″W
+79,Cabo San Lucas,Baja California Sur,22°53′23″N 109°54′56″W
+80,Chicoloapan,State of Mexico,19°24′55″N 98°54′04″W
+81,Ciudad del Carmen,Campeche,18°38′18″N 91°50′07″W
+82,San Cristóbal,Chiapas,16°44′12″N 92°38′18″W
+83,Poza Rica,Veracruz,20°32′03″N 97°26′37″W
+84,San Juan del Río,Querétaro,20°23′20″N 99°59′47″W
+85,San Luis Río Colorado,Sonora,32°28′36″N 114°45′45″W
+86,Chalco,State of Mexico,19°15′53″N 98°53′51″W
+87,Jiutepec,Morelos,18°52′53″N 99°10′40″W
+88,Piedras Negras,Coahuila,28°42′00″N 100°31′23″W
+89,Guadalupe,Zacatecas,22°45′10″N 102°30′28″W
+90,Chetumal,Quintana Roo,18°30′13″N 88°18′19″W
+91,Miramar,Tamaulipas,22°19′59″N 97°51′59″W
+92,Salamanca,Guanajuato,20°34′13″N 101°11′50″W
+93,Ciudad Acuña,Coahuila,29°19′27″N 100°55′54″W
+94,Manzanillo,Colima,19°03′08″N 104°18′57″W
+95,San Pablo de las Salinas,State of Mexico,19°39′56″N 99°05′30″W
+96,Cuautla,Morelos,18°48′44″N 98°57′21″W
+97,Zamora,Michoacán,19°59′08″N 102°16′59″W
+98,Minatitlán,Veracruz,17°59′00″N 94°33′00″W
+99,Villa de Álvarez,Colima,19°15′50″N 103°44′13″W
+100,Colima,Colima,19°14′30″N 103°43′41″W
