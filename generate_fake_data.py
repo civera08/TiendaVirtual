@@ -1,3 +1,6 @@
+# Copyright (c) 2025 César Rivera
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
+
 import pandas as pd
 from sqlalchemy import create_engine, text
 from faker import Faker
