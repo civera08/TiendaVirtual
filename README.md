@@ -5,8 +5,6 @@ Este proyecto es un análisis de datos para una tienda virtual utilizando Python
 ## Contenido
 
 - **generate_fake_data.py**: Genera datos falsos para clientes y órdenes.
-- **db_queries.py**: Realiza consultas a la base de datos.
-- **join_analisis.py**: Une y analiza los datos generados o consultados.
 - **analisis.py**: Realiza un análisis estadístico sobre los datos.
 - **plots.py**: Crea gráficos para visualizar ventas por ciudad.
 - **regresion.py**: Implementa un modelo de regresión.
